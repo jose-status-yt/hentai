@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <link rel="icon" href="jose.ico" type="jose.ico">
-    <title>JOSE STATUS YT</title>
-    <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0; URL='https://sites.google.com/view/jose-status-hentai/Inicio'" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HENTAI</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <p>
-        O conteúdo desta página foi movido para o link:
-        <a href="JOSÉ STATUS YT">https://sites.google.com/view/jose-status-hentai/Inicio</a>
-    </p>
-</body>
+    <div class="container" id="age-verification">
+        <h1>Verificação de Idade</h1>
+        <p>Informe sua data de nascimento:</p>
+        <input type="date" id="birthdate">
+        <button onclick="verifyAge()">Verificar</button>
+        <p class="error" id="error-message"></p>
+    </div>
 
+    <div class="container" id="welcome" style="display: none;">
+        <h1>Bem-vindo ao Site de HENTAI!</h1>
+        <a href="https://sites.google.com/view/jose-status-hentai">Ir para HENTAI</a>
+    </div>
+
+    <div class="container" id="blocked" style="display: none;">
+        <h1>Acesso Bloqueado</h1>
+        <p>Você precisa ter 18 anos ou mais para acessar este site.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
 </html>
